@@ -9,7 +9,7 @@ which includes two parts:
 
 If you have any feedback or issues, you are welcome to either post an issue in the Issues section or send an email to jingmiao@cibr.ac.cn.
 
-## ATP1.0 *in vivo* imaging data analysis
+## ATP1.0 *in vivo* and *ex vivo* imaging data analysis
 
 ### Exemplar data
 
@@ -21,7 +21,7 @@ Options for signal extraction can be downloaded [here](/OptsOfAqua.csv).
 
 ### Code 
 
-1. [**Res2DensityMap**](/Res2DensityMap.m): This function accepts an AQUA project file 'res' and outputs a normalized Inflares density map, as shown in Fig. 3a.
-2. [**Res2DensityCurve**](/Res2DensityCurve.m): This function accepts an AQUA project file 'res' and outputs a Inflares density curve, as shown in Fig. 3c.
-3. [**Res2RoiRegion**](/Res2RoiRegion.m): This function takes an AQUA project file 'res' as input and outputs a two-dimensional ROI of Inflares, as shown in Fig. 2c, with the ROI color mapping corresponding to the maximum response for the signal.
-4. [**Res2FreqPlt**](/Res2FreqPlt.m): This function accepts an AQUA project file 'res' and plots frequency figure as shown in Fig. 2d.
+1. [**Res2DensityMap**](/Res2DensityMap.m): This function accepts an AQUA project file 'res' and outputs a normalized Inflares density map.
+2. [**Res2DensityCurve**](/Res2DensityCurve.m): This function accepts an AQUA project file 'res' and outputs a Inflares density curve.
+3. [**Res2RoiRegion**](/Res2RoiRegion.m): This function takes an AQUA project file 'res' as input and outputs a two-dimensional ROI of Inflares,  with the ROI color mapping corresponding to the maximum response for the signal.
+4. [**Res2FreqPlt**](/Res2FreqPlt.m): This function accepts an AQUA project file 'res' and plots frequency figure.
